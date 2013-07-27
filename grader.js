@@ -21,8 +21,8 @@ References:
 */
 
 var fs = require('fs');
-var program = requiere('commander');
-var cheerio = requiere('cheerio');
+var program = require('commander');
+var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
 
@@ -32,7 +32,7 @@ var assertFileExists = function(infile) {
 	console.log("%s does not exists. Exiting.", instr);
 	process.exit(1); //Salir con error
     }
-    retrun instr;
+    return instr;
 };
 
 var cheerioHtmlFile = function(htmlfile) {
