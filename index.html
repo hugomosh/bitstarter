@@ -29,37 +29,87 @@
       }
       }
 
+ 
+      /* Landscape phones and down */ 
+      
+      @media (max-width:480px){
+      .copy{
+      padding 2.5% 10%;
+      }
+      .linediv-l{
+      border-bottom: 1px white solid;
+      }
+      .linedive-r{
+      border-top: 1px white solid;
+      }
+      }
+
+      /* All form factors */
+
+      /* Main body and headings */
       body {
-      padding-top: 20px;
-      padding-bottom: 40px;
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       }
-      .container {
-      width: 960px;
+      .heading, .subheading {
+      font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      text-align:center;
       }
-      p.lead{
-      padding-top: 15px;
+      p.lead {
+      padding-top: 1.5%;
+      font-size: 24px;
+      line-heigth: 30px;
       }
-       .navigation, .pitch, .section1, .section2, .faq, .footer {
-      padding: 10px 0px 10px 0px;
+      p {
+      font-size: 18px;
+      line-height: 24px;
       }
-      .video, .thermometer, .order, .social {
-      border: 1px dotted;
+
+      /* Video pitch and Action */
+      .pitch {
+      padding: 2.5% 0%;
+      }
+      .order {
+      padding: 2% 0%;
+      }
+      .actions {
+      backgorund-color: #343477;
+      padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .scodial, .statistics {
       text-align: center;
       }
-      .video {
-      height: 124px;
-      line-height: 124px;
+      .statistics h3, .statistics p{
+      color: blue;
       }
-      .thermometer, .order, .social {
-      height: 40px;
-      line-height: 40px;
+      
+      /* Marketing Copy Footer */
+      .copy{
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+      text-align: justify;
       }
-      div.row {
-      border: 1px solid;
+      .asset {
+      padding: 2.5% 0%;
       }
+      .footer {
+      color: #cccccc;
+      text-align: center;
+      }
+      .footer p {
+      font-size: 11px;
+      }
+      .footer a {
+      color: #ccffff;
+      }
+
     </style>
   </head>
   <body>
+
+    <!-- Mobile-friendlz navbar-->
+    
+
+
     <div class="container">
       <div class="row navigation">
 	<div class="span2 logo">
